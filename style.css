@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 header.topbar{
-    padding: 0.75rem 0;
+    padding: 1.75rem 0;
     font-size: 15px;
 }
 header.topbar .gauche > div a{
