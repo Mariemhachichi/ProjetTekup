@@ -135,7 +135,11 @@ header.topbar .droite > div a:hover{
     padding: 2rem;
  }
 
- 
+ #carouselExampleIndicators .carousel-item img {
+    height: 400px; /* Remplacez 300px par la hauteur désirée */
+    width: auto; /* Cela maintiendra le ratio de l'image */
+    object-fit: cover; /* Pour s'assurer que l'image remplit complètement la zone définie */
+}
 
  #slider {
    overflow: hidden;
